@@ -1,7 +1,7 @@
 {
   "name": "Pyrogram String Session Generator",
   "description": "بوت تلي لاستخراج كود ترمكس",
-  "logo": "https://telegra.ph/file/d295b96e5241d077b36f9.jpg",
+  "logo": "https://telegra.ph/file/8b643eccc82b129a6eb42.jpg",
   "keywords": [
     "telegram",
     "bot",
@@ -25,7 +25,7 @@
          "plan": "heroku-postgresql"
       }
    ],
-  "repository": "https://github.com/ANES0H/strinG",
+  "repository": "https://github.com/aabbddooelsyed/String",
   "env": {
     "ENVIRONMENT": {
       "description": "Don't change ANYTHING.",
@@ -35,22 +35,22 @@
     "API_ID": {
       "description": "Get this value from my.telegram.org.",
       "required": true,
-      "value": ""
+      "value": "13575043"
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org.",
       "required": true,
-      "value": ""
+      "value": "c5f0be019872837db0761ce06765a5d8"
     },
     "BOT_TOKEN": {
       "description": "Obtain a Telegram bot token by contacting @BotFather",
       "required": true,
-      "value": ""
+      "value": "5729854217:AAE4jfVNPTlDbHn2kSx9KPPM8loSNaE2-pQ"
     },
     "MUST_JOIN": {
       "description": "Add username/id of a channel/group",
       "required": false,
-      "value": ""
+      "value": "BA_BLOO"
     }
   }
 }
