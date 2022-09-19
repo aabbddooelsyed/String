@@ -13,13 +13,13 @@ async def must_join_channel(bot: Client, msg: Message):
             await bot.get_chat_member(MUST_JOIN, msg.from_user.id)
         except UserNotParticipant:
             if MUST_JOIN.isalpha():
-                link = "https://t.me/" + MUST_JOIN
+                link = "https://t.me/BA_BLOO"
             else:
                 chat_info = await bot.get_chat(MUST_JOIN)
                 link = chat_info.invite_link
             try:
                 await msg.reply(
-                    f"يجب عليك الانضمام[القناه]({link}) لاستخدامي. بعد الانضمام ارسل /start مره اخرى !",
+                    f"يجب عليك الانضمام[القناه]({https://t.me/BA_BLOO}) لاستخدامي. بعد الانضمام ارسل /start مره اخرى !",
                     disable_web_page_preview=True,
                     reply_markup=InlineKeyboardMarkup([
                         [InlineKeyboardButton("🔥 انضمام للقناه 🔥", url=link)]
@@ -29,4 +29,4 @@ async def must_join_channel(bot: Client, msg: Message):
             except ChatWriteForbidden:
                 pass
     except ChatAdminRequired:
-        print(f"انا لست ادمن في قناه/كروب اشتراك الاجباري: {MUST_JOIN} !")
+        print(f"انا لست ادمن في قناه/كروب اشتراك الاجباري: {BA_BLOO} !")
