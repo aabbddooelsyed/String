@@ -13,7 +13,7 @@ class Data:
 
     buttons = [
         generate_single_button,
-        [InlineKeyboardButton("👨‍💻 المطور 👨‍💻", url="https://t.me/N_B_1N")],
+        [InlineKeyboardButton("👨‍💻 المطور 👨‍💻", url="https://t.me/AC_BABLOO")],
         [
             InlineKeyboardButton("❔ كيف استخدام البوت❔", callback_data="help"),
             InlineKeyboardButton("ℹ شرح عن البوت ℹ", callback_data="about")
@@ -29,7 +29,7 @@ Hey {}
 
 أنا جلسة سلسلة مولد بوت ل Pyrogram & Telethon.
 
- انقر على الأزرار أدناه لمعرفة المزيد مطور البوت @N_B_1N . 
+ انقر على الأزرار أدناه لمعرفة المزيد مطور البوت @AC_BABLOO . 
     """
 
     HELP = """
